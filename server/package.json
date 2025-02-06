@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philipiak123/shop_nextjs.git"
+  },
+  "author": "philipiak123",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philipiak123/shop_nextjs/issues"
+  },
+  "homepage": "https://github.com/philipiak123/shop_nextjs#readme",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "dropbox": "^10.34.0",
+    "express": "^4.19.2",
+    "express-session": "^1.18.1",
+    "isomorphic-fetch": "^3.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1"
+  }
+}

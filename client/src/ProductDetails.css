@@ -1,0 +1,166 @@
+.product-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.image-container {
+  position: relative;
+  max-width: 450px;
+}
+
+.product-image {
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.description-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.description {
+  text-align: center;
+}
+
+.review-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.review-modal-content {
+  position: relative;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+textarea {
+  width: calc(100% - 20px);
+  height: 100px;
+  resize: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.review-modal-content button {
+  margin: 5px;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.reviews-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.reviews-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.write-review-button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.write-review-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.write-review-button:hover {
+  background-color: #0056b3;
+}
+
+.review {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.review-date {
+  color: #777;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.review p {
+  margin: 0;
+}
+.sort-select-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sort-select {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.reviews-container {
+  margin-top: 20px;
+}
+
+.review {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.review-date {
+  font-size: 12px;
+  color: #888;
+}
+
+
+

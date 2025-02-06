@@ -1,0 +1,144 @@
+.my-account {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.my-account h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.account-details {
+  text-align: center;
+  font-size: 18px;
+}
+
+.change-password-button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.change-password-button:hover {
+  background-color: #45a049;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.orders-table th, .orders-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.orders-table th {
+  background-color: #f2f2f2;
+}
+
+.orders-table td ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.orders-table td ul li {
+  margin-bottom: 5px;
+}
+.orders-table-container {
+  width: 100%;
+  max-width: 600px; /* Maksymalna szerokość tabeli */
+  margin: 0 auto; /* Automatyczne wycentrowanie na środku */
+}
+
+
+.password-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+  max-height: 80vh;
+  overflow: auto;
+}
+
+.password-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.password-modal h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.password-modal form {
+  display: flex;
+  flex-direction: column;
+}
+
+.password-modal .form-group {
+  margin-bottom: 15px;
+}
+
+.password-modal label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.password-modal input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.password-modal button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.password-modal button:hover {
+  background-color: #45a049;
+}
+
+.password-modal .message {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.password-modal .error-message {
+  color: red;
+}
+
+.password-modal .success-message {
+  color: green;
+}

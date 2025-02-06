@@ -1,0 +1,15 @@
+/* App.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.navbar {
+  flex-shrink: 0; /* Navbar nie zmienia rozmiaru */
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto; /* Umożliwia przewijanie */
+}
